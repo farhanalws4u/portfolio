@@ -1,0 +1,37 @@
+1. logo gradient 
+
+background: hsla(307, 67%, 35%, 1); 
+
+background: linear-gradient(37deg, hsla(307, 67%, 35%, 1) 0%, hsla(286, 84%, 20%, 1) 100%);
+
+background: -moz-linear-gradient(37deg, hsla(307, 67%, 35%, 1) 0%, hsla(286, 84%, 20%, 1) 100%);
+
+background: -webkit-linear-gradient(37deg, hsla(307, 67%, 35%, 1) 0%, hsla(286, 84%, 20%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#931D85", endColorstr="#48085C", GradientType=1 );
+
+=> logo colors first = darkOne: #48085C lightOne: #931D85
+
+
+2. transition css
+
+.HomeContainer {
+  background-color: antiquewhite;    
+  width: 100vw;
+  height: 100vh;
+  transition: 0.7s ease-in-out all;
+  clip-path: circle(10% at 0 0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+
+.HomeContainer:hover {
+  clip-path: circle(141.42% at 0 0);
+}
+
+
+==> background color suggestions == 1. #0e1217  2.#1c1f26

@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  background-color: #101418;
+}
+
+:root {
+  --color-text: #869eb5;
+  --color-heading: #e2e7ec;
+  --color-background-dark: #101418;
+  --color-background-light: #1c1f26;
+  --color-accent-background-gradient: linear-gradient(
+    45deg,
+    hsla(307, 67%, 35%, 1) 0%,
+    hsla(286, 84%, 20%, 1) 100%
+  );
+  --color-accent: #761474;
+}
+
+@font-face {
+  font-family: "axiforma-regular";
+  src: url("./assets/fonts/Axiforma-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "axiforma-bold";
+  src: url("./assets/fonts/Axiforma-Bold.ttf") format("truetype");
+}

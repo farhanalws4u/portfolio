@@ -1,0 +1,26 @@
+.projects__container {
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+  position: absolute;
+  z-index: 1000;
+  transition: 0.7s ease-in-out all;
+  clip-path: circle(10% at 0 0);
+  animation: slideOpen 0.8s forwards;
+}
+.project__display_none {
+  display: none;
+  z-index: -12222;
+}
+
+@keyframes slideOpen {
+  from {
+    clip-path: circle(10% at 0 0);
+    display: none;
+  }
+
+  to {
+    clip-path: circle(141.42% at 0 0);
+    display: initial;
+  }
+}
